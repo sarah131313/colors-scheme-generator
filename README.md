@@ -1,3 +1,11 @@
+# Technologies Used:
+**React**: JSX, functional components,props, hooks (useState, useEffect), event handling, conditional rendering.
+
+**JavaScript**: ES6+ features (array functions, destructuring, template literals,ternary operator), **Fetch API**, Clipboard API, dynamic rendering.
+
+**CSS**: Flexbox,hover effects, , custom styles (light/dark themes),box sizing, custom gradients, pseudo-elements.
+
+
 # cmJ4aGfQ
 
 Warning: Vite enforces using jsx syntax inside jsx/tsx files, so it will complain about that. Solution: rename `.js` files to `.jsx` :)
