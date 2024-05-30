@@ -1,6 +1,7 @@
-*::before, *::after {
+*::before,
+*::after {
     box-sizing: border-box;
-    
+
 }
 
 
@@ -8,7 +9,7 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
-   
+
 }
 
 
@@ -16,15 +17,15 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 0 2em .5em 2em;
-    background:white;
+    background: white;
     height: 70px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    
+
 }
 
 nav h3 {
     font-size: 1.4rem;
-    background: -webkit-linear-gradient(0deg, rgba(34,173,195,1) 0%, rgba(45,253,184,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(34, 173, 195, 1) 0%, rgba(45, 253, 184, 1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -35,9 +36,8 @@ main {
     margin: 50px auto;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 7px;
-    height: 100vh;
-  
-    
+
+
 }
 
 .form--color {
@@ -46,22 +46,24 @@ main {
     gap: 15px;
     margin: 2em 1em;
     padding-top: 1.7em;
-   
+
 }
 
-input, select, button {
-     border: 1px solid #D1D5DB;
-     cursor: pointer;
-    
+input,
+select,
+button {
+    border: 1px solid #D1D5DB;
+    cursor: pointer;
+
 }
 
 input[type="color"] {
     max-width: 60px;
-    height:auto;
+    height: auto;
     border: none;
     padding: 0;
     background-color: #E5E5E5;
-    
+
 }
 
 
@@ -71,10 +73,10 @@ input[type="color"] {
     position: relative;
     min-width: 312px;
     height: 42px;
-    
+
 }
 
-.select-box{
+.select-box {
     border: none;
     appearance: none;
     padding: 0 30px 0 15px;
@@ -84,7 +86,7 @@ input[type="color"] {
     outline: none;
     border: 1px solid #D1D5DB;
 
-   
+
 }
 
 
@@ -97,12 +99,12 @@ input[type="color"] {
     display: flex;
     align-items: center;
     justify-content: center;
-   
+
 }
 
 .icon-container img {
     width: 18px;
-    
+
 }
 
 button {
@@ -110,46 +112,47 @@ button {
     font-size: 12px;
     padding: 10px 0;
     border-radius: 4px;
-    background: linear-gradient(0deg, rgba(34,173,195,1) 0%, rgba(45,253,184,1) 100%);;
+    background: linear-gradient(0deg, rgba(34, 173, 195, 1) 0%, rgba(45, 253, 184, 1) 100%);
+    ;
     color: white;
     font-weight: bold;
-    
+
 }
 
 .show--color {
     display: flex;
     background: #edf6f9;
     position: relative;
-      
+
 }
 
 
 .color-container {
     display: flex;
-    
+
 }
 
-.color-and-code-container:hover{
+.color-and-code-container:hover {
     border: 1px solid black;
     cursor: pointer;
-   
+
 }
 
-main.dark .color-and-code-container:hover{
-     border: 1px solid white;
-     cursor: pointer;
+main.dark .color-and-code-container:hover {
+    border: 1px solid white;
+    cursor: pointer;
 }
 
 
 
-.color--displayed{
-    
+.color--displayed {
+
     height: 314px;
     width: 110px;
     display: flex;
     flex-direction: column;
     display: inline-block;
-    
+
 }
 
 
@@ -160,7 +163,7 @@ main.dark .color-and-code-container:hover{
     background: white;
     bottom: 0;
     display: flex;
-    
+
 }
 
 .color-code {
@@ -236,15 +239,15 @@ nav.dark {
 }
 
 nav.dark h3 {
-     background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 
-.container-dark{
-    background:#6c757d;
-    
+.container-dark {
+    background: #6c757d;
+
 }
 
 
@@ -252,11 +255,11 @@ main.dark {
     background: #343a40;
 }
 
-main.dark button{
-    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+main.dark button {
+    background: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
 }
 
-main.dark .color-hex{
+main.dark .color-hex {
     background: #343a40;
     color: white;
 }
@@ -266,11 +269,3 @@ main.dark .show--color {
 }
 
 /* ----------------------media queries----------------- */
-
-
-
-
-
-
-
-
